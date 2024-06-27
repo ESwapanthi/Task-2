@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alphabetical Order</title>
+    <script>
+        function alphabetizeString() {
+            let str = document.getElementById("inputString").value;
+            let sortedString = str.split('').sort().join('');
+            document.getElementById("output").innerText = "Alphabetized String: " + sortedString;
+        }
+    </script>
+</head>
+<body>
+    <h2>Alphabetize a String</h2>
+    <p>Enter a string:</p>
+    <input type="text" id="inputString" />
+    <button onclick="alphabetizeString()">Alphabetize</button>
+    <p id="output"></p>
+</body>
+</html>

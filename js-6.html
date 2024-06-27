@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title><i>Instagram</i></title>
+<script>
+function login() {
+  var username = document.getElementById("username").value;
+  var password = document.getElementById("password").value; 
+  alert("You have successfully logged in! Username: " + username + ", Password: " + password);
+}
+</script>
+</head>
+<body>
+<h1><i><c>Instagram</c></i></h1>
+<label for="username">
+  <img src="./Screenshot 2024-06-26 200522.png" src="i-1">
+</label>
+<input type="text" id="username" name="username"><br><br>
+<label for="password">
+  <img src="./Screenshot 2024-06-26 200529.png" src="i-2">
+</label>
+<input type="password" id="password" name="password"><br><br>
+<div><input type="button" value="Login" onclick="login()"></div>
+<label><input type="checkbox" name="remember">Remember me</label>
+<label><a href="#">Forgot password?</a></label>
+<p>Don't have an account? Sign up here</p>
+</body>
+</html>
